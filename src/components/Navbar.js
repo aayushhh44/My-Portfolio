@@ -13,9 +13,7 @@ const Navbar = () => {
       <Link className="decoration-transparent text-xs sm:text-xl text-black" to='/'>aayushpoudel59@gmail.com</Link>
     </div>
             
-          
-
-          <div className='flex gap-2 sm:gap-8 mr-6 cursor-pointer'> 
+          <div className='flex gap-1 sm:gap-8 mr-4 cursor-pointer'> 
           <Link className='text-red-700 hover:text-red-900 text-xs sm:text-xl decoration-transparent' to='/'>Home</Link>
           <Link className='text-red-700 hover:text-red-900 text-xs sm:text-xl decoration-transparent' to='/about-me'>About Me</Link>
           <Link className='text-red-700 hover:text-red-900 text-xs sm:text-xl decoration-transparent' to='/projects'>Projects</Link>
