@@ -12,7 +12,7 @@ const Contacts = () => {
         <h1 className="text-4xl font-semibold text-gray-800 mb-8">Get in Touch</h1>
         <div className="flex items-center gap-6">
           <Link
-            to="https://www.facebook.com/yourfacebookusername"
+            to="https://www.facebook.com/aayush4444"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-700 hover:text-blue-600"
