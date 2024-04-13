@@ -1,35 +1,35 @@
  {
     "Project1": {
         "name": "Personal Portfolio",
-        "imageURL": "https://media.discordapp.net/attachments/1069634205400699013/1219550333034954752/Screenshot_2024-03-19_at_1.22.06_PM.png?ex=660bb5c1&is=65f940c1&hm=42235eac8b4f7b99fab0f018fff131052e0bf90c9d84d1dba60a95af2f6d3f35&=&width=930&height=922",
+        "imageURL": "/assets/myportfolio.png",
         "details": "This is my portfolio site created after learning the basics of React.",
         "demoLink":"https://serene-dusk-3f337c.netlify.app",
         "githubLink":""
     },
     "Project2": {
         "name": "Aayush Store",
-        "imageURL": "https://media.discordapp.net/attachments/1069634205400699013/1219548935731937290/Screenshot_2024-03-19_at_11.57.10_AM.png?ex=660bb474&is=65f93f74&hm=5300ebe1eaee7e3261d1294080d28652f7b7bf83267ae8531390b5997aa8f1bd&=&width=1100&height=620",
+        "imageURL": "/assets/ecom.png",
         "details": "Aayush Store is the second project I developed after learning React. It's an e-commerce platform where users can browse and purchase various products",
         "demoLink": "https://aayushbpayusbh.netlify.app/",
         "githubLink":""
     },
     "project3": {
         "name": "Image Search",
-        "imageURL": "https://media.discordapp.net/attachments/1069634205400699013/1219550813320642560/Screenshot_2024-03-19_at_1.24.08_PM.png?ex=660bb634&is=65f94134&hm=57f359ae79dba07ebd427737a34c11df2552c0746d00cb7569c72ea927421b1a&=&width=1882&height=1066",
+        "imageURL": "/assets/imagesearch.png",
         "details": "This is my third project, called Image Search. It allows users to search for images and view them in a gallery-style layout. ",
         "demoLink": "https://lucent-puffpuff-9fb2a4.netlify.app/",
         "githubLink":""
     },
     "project4": {
         "name": "Hamro Teacher",
-        "imageURL": "https://media.discordapp.net/attachments/1069634205400699013/1219551431288291369/Screenshot_2024-03-19_at_1.26.42_PM.png?ex=660bb6c7&is=65f941c7&hm=dff66d366feea97a3c25205e2f66a75302587015ba1769358ee55a79a15cf75f&=&width=2160&height=1008",
+        "imageURL": "/assets/hamroteacher.png",
         "details": "Hamro Teacher is a project developed during Sagarmatha Hacks. It aims to act as the bridge between educational institutions and students. ",
         "demoLink": "https://lucent-puffpuff-9fb2a4.netlify.app/",
         "githubLink":"https://github.com/anishrajpandey/Hamro-Teacher---Sagarmatha-Hacks"
     },
     "project5": {
         "name": "BookStore (MERN)",
-        "imageURL": "https://media.discordapp.net/attachments/1069634205400699013/1219552295453462558/Screenshot_2024-03-19_at_1.30.10_PM.png?ex=660bb795&is=65f94295&hm=8e30db82318a6f9c61a8205a353d2b57337c9621908bd3f3b92bb7e7664a5cbb&=&width=2160&height=1018",
+        "imageURL": "/assets/MernCrud.png",
         "details": "BookStore is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) project. It allows users to register, delete, view books online.",
         "demoLink": "https://lucent-puffpuff-9fb2a4.netlify.app/",
         "githubLink":"https://github.com/aayushhh44/Book-Store"
