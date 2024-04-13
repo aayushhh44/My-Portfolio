@@ -1,11 +1,5 @@
  {
-    "Project1": {
-        "name": "Personal Portfolio",
-        "imageURL": "/assets/myportfolio.png",
-        "details": "This is my portfolio site created after learning the basics of React.",
-        "demoLink":"https://serene-dusk-3f337c.netlify.app",
-        "githubLink":""
-    },
+    
     "Project2": {
         "name": "Aayush Store",
         "imageURL": "/assets/ecom.png",
@@ -35,4 +29,7 @@
         "githubLink":"https://github.com/aayushhh44/Book-Store"
     }
 }
+
+
+
 

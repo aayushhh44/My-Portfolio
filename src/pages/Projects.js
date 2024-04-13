@@ -56,3 +56,15 @@ const Projects = () => {
 }
 
 export default Projects
+
+
+
+
+
+// "Project1": {
+//   "name": "Personal Portfolio",
+//   "imageURL": "/assets/myportfolio.png",
+//   "details": "This is my portfolio site created after learning the basics of React.",
+//   "demoLink":"https://serene-dusk-3f337c.netlify.app",
+//   "githubLink":""
+// },
