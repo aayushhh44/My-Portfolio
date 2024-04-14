@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import { FaInstagram, FaDiscord, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaInstagram, FaDiscord, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Contacts = () => {
@@ -11,6 +11,17 @@ const Contacts = () => {
       <div className="flex flex-col items-center justify-center mt-32">
         <h1 className="text-4xl font-semibold text-gray-800 mb-8">Get in Touch</h1>
         <div className="flex items-center gap-6">
+
+        <Link
+            to="https://www.instagram.com/aayblush"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-700 hover:text-pink-600"
+          >
+            <FaFacebook className="text-3xl" />
+          </Link>
+
+          
           
           <Link
             to="https://www.instagram.com/aayblush"
@@ -37,7 +48,7 @@ const Contacts = () => {
             <FaGithub  className="text-3xl" />
           </Link>
           <Link
-            to="/"
+            to="https://www.linkedin.com/in/aayush-poudel-915007223/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-700 hover:text-green-600"

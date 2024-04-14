@@ -1,35 +1,38 @@
- {
-    
-    "Project2": {
-        "name": "Aayush Store",
-        "imageURL": "/assets/ecom.png",
-        "details": "Aayush Store is the second project I developed after learning React. It's an e-commerce platform where users can browse and purchase various products",
-        "demoLink": "https://aayushbpayusbh.netlify.app/",
-        "githubLink":""
-    },
-    "project3": {
-        "name": "Image Search",
-        "imageURL": "/assets/imagesearch.png",
-        "details": "This is my third project, called Image Search. It allows users to search for images and view them in a gallery-style layout. ",
-        "demoLink": "https://lucent-puffpuff-9fb2a4.netlify.app/",
-        "githubLink":""
-    },
-    "project4": {
-        "name": "Hamro Teacher",
-        "imageURL": "/assets/hamroteacher.png",
-        "details": "Hamro Teacher is a project developed during Sagarmatha Hacks. It aims to act as the bridge between educational institutions and students. ",
-        "demoLink": "https://lucent-puffpuff-9fb2a4.netlify.app/",
-        "githubLink":"https://github.com/anishrajpandey/Hamro-Teacher---Sagarmatha-Hacks"
-    },
-    "project5": {
-        "name": "BookStore (MERN)",
-        "imageURL": "/assets/MernCrud.png",
-        "details": "BookStore is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) project. It allows users to register, delete, view books online.",
-        "demoLink": "https://lucent-puffpuff-9fb2a4.netlify.app/",
-        "githubLink":"https://github.com/aayushhh44/Book-Store"
-    }
+{
+  "Project1": {
+    "name": "Personal Portfolio",
+    "imageURL": "/assets/myportfolio.png",
+    "details": "This is my portfolio site created after learning the basics of React.",
+    "demoLink": "https://serene-dusk-3f337c.netlify.app",
+    "githubLink": ""
+  },
+
+  "Project2": {
+    "name": "Aayush Store",
+    "imageURL": "/assets/ecom.png",
+    "details": "Aayush Store is the second project I developed after learning React. It's an e-commerce platform where users can browse and purchase various products",
+    "demoLink": "https://aayushbpayusbh.netlify.app/",
+    "githubLink": ""
+  },
+  "project3": {
+    "name": "Image Search",
+    "imageURL": "/assets/imagesearch.png",
+    "details": "This is my third project, called Image Search. It allows users to search for images and view them in a gallery-style layout. ",
+    "demoLink": "https://lucent-puffpuff-9fb2a4.netlify.app/",
+    "githubLink": ""
+  },
+  "project4": {
+    "name": "Hamro Teacher",
+    "imageURL": "/assets/hamroteacher.png",
+    "details": "Hamro Teacher is a project developed during Sagarmatha Hacks. It aims to act as the bridge between educational institutions and students. ",
+    "demoLink": "https://lucent-puffpuff-9fb2a4.netlify.app/",
+    "githubLink": "https://github.com/anishrajpandey/Hamro-Teacher---Sagarmatha-Hacks"
+  },
+  "project5": {
+    "name": "BookStore (MERN)",
+    "imageURL": "/assets/MernCrud.png",
+    "details": "BookStore is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) project. It allows users to register, delete, view books online.",
+    "demoLink": "https://lucent-puffpuff-9fb2a4.netlify.app/",
+    "githubLink": "https://github.com/aayushhh44/Book-Store"
+  }
 }
-
-
-
-
