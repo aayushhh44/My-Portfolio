@@ -11,8 +11,10 @@ module.exports = {
       google: ['Open Sans'],
       poppins:['Poppins']
     }
+    
 
   },
+  
 
   darkMode:'class',
   

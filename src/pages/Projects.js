@@ -40,7 +40,7 @@ const Projects = () => {
             type="text"
             placeholder="my projects"
           />
-          <CiSearch className="absolute -top-1 left-6 mt-9 cursor-pointer ml-6 md:ml-8 text-gray-400" />
+          <CiSearch className="absolute -top-1 left-10 mt-9 cursor-pointer ml-6 md:ml-8 text-gray-400" />
         </div>
       </div>
 

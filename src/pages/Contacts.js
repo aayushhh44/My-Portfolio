@@ -109,16 +109,16 @@ const Contacts = () => {
           </div>
         </div>  */}
 
-      <div className="mt-24 pt-8">
-        <h1 className="text-center">Get in Touch</h1>
+      <div className="mt-20 pt-8">
+        <h1 className="text-center text-3xl font-poppins">Get in Touch</h1>
         <div className="p-16 flex-col justify-center items-center sm:flex-row flex gap-8">
-          <div className="bg-gray-100 p-4 w-1/3">
-            <h2 className=" dark:text-black">My Socials</h2>
+          <div className="bg-[#922232] dark:bg-white flex flex-col justify-center gap-6 h-96 p-4 w-full sm:w-1/3">
+            <h2 className=" dark:text-black font-poppins">My Socials</h2>
 
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-8">
               <FaFacebook
                 size={30}
-                className="cursor-pointer  dark:text-black"
+                className="cursor-pointer dark:text-black"
               />
               <FaGithub
                 size={30}
@@ -135,24 +135,24 @@ const Contacts = () => {
             </div>
           </div>
 
-          <div className="w-2/3">
+          <div className="w-full sm:w-2/3">
             <form className="flex flex-col gap-2">
               <input
-                className="border-0 p-2 border-b-2 border-black focus:border-black outline-none"
+                className="border-0 p-2 border-b-2 border-black focus:border-black outline-none placeholder:font-poppins dark:text-black"
                 placeholder="Your Name"
               />
 
               <input
-                className="border-0 p-2 border-b-2 border-black focus:border-black outline-none"
+                className="border-0 p-2 border-b-2 border-black focus:border-black outline-none placeholder:font-poppins dark:text-black"
                 placeholder="Email"
               />
 
               <textarea
-                className="border-0 p-2 border-b-2 border-black focus:border-black outline-none"
+                className="border-0 p-2 border-b-2 border-black focus:border-black outline-none placeholder:font-poppins dark:text-black"
                 placeholder="messages"
               />
 
-              <button className="p-2 mt-8">Submit</button>
+              <button className="p-2 bg-[#922232] text-[#D0C2B3] font-poppins mt-8">Submit</button>
             </form>
           </div>
         </div>
