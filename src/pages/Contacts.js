@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import {
   FaInstagram,
@@ -6,9 +6,44 @@ import {
   FaLinkedin,
   FaFacebook,
 } from "react-icons/fa";
+import emailjs from '@emailjs/browser';
+import { toast } from "react-toastify";
 
 
 const Contacts = () => {
+
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const public_key = 'vwXj3gfN4FyxDyWMM';
+  const templateId = 'template_4rr288p';
+  const serviceId =  'service_ryo6y4s';
+
+  
+
+  const templateParams = {
+    from_name : name,
+    email_id : email,
+    to_name : 'Aayush Code',
+    message: message
+  }
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    
+      emailjs.send(serviceId, templateId, templateParams, public_key).then((resp) =>{
+        console.log('Email sent successfully', resp);
+        toast.success("Email sent Successfully");
+        setName('');
+        setEmail('');
+        setMessage('');
+      }).catch((err) =>{
+        console.log('Error sending mail', err)
+      })
+     
+  };
   return (
     <div>
       <Navbar />
@@ -136,23 +171,23 @@ const Contacts = () => {
           </div>
 
           <div className="w-full sm:w-2/3">
-            <form className="flex flex-col gap-2">
-              <input
+            <form onSubmit={sendEmail} className="flex flex-col gap-2">
+              <input type="text" value={name} onChange={(e) => setName(e.target.value)}
                 className="border-0 p-2 border-b-2 border-black focus:border-black outline-none placeholder:font-poppins dark:text-black"
                 placeholder="Your Name"
               />
 
-              <input
+              <input type="email" value={email} onChange={(e) => setEmail(e.target.value)}
                 className="border-0 p-2 border-b-2 border-black focus:border-black outline-none placeholder:font-poppins dark:text-black"
                 placeholder="Email"
               />
 
-              <textarea
+              <textarea value={message} onChange={(e) => setMessage(e.target.value)}
                 className="border-0 p-2 border-b-2 border-black focus:border-black outline-none placeholder:font-poppins dark:text-black"
                 placeholder="messages"
               />
 
-              <button className="p-2 bg-[#922232] text-[#D0C2B3] font-poppins mt-8">Submit</button>
+              <button type="submit" className="p-2 bg-[#922232] text-[#D0C2B3] font-poppins mt-8">Submit</button>
             </form>
           </div>
         </div>

@@ -80,10 +80,10 @@ const Aboutme = () => {
           </p>
           <p className="-mt-3 text-xs md:text-lg">
            
-            <span className="font-bold font-poppins text-gray-500">
-              Aayush Poudel
+            <span className="font-bold font-poppins mr-1 text-gray-500">
+              Aayush Poudel 
             </span>
-            is a web developer who loves building awesome stuff online. His tech
+             is a web developer who loves building awesome stuff online. His tech
             stack includes React for dynamic user interfaces, Node.js for
             scalable server-side development, Tailwind CSS for styling, and
             MongoDB for efficient database management....{" "}
