@@ -24,18 +24,23 @@ const Projects = () => {
       <Navbar />
 
       <div className="top-0 pt-36 text-center md:ml-[200px] lg:ml-[400px] xl:ml-[600px] left-0 max-w-md">
+
+        <div className="flex justify-center">
         <img
           className="md:w-[300px] w-[150px] cursor-pointer object-cover"
           src={Google}
           alt="Google"
         />
+
+        </div>
+       
         <div className="relative">
           <input
-            className="mt-6 w-[350px] px-4 py-2 placeholder-black rounded-lg text-black h-5 border border-gray-400 focus:outline-none focus:border-blue-500 pl-10"
+            className="mt-6 w-[350px] font-poppins placeholder:font-poppins p-4 placeholder-black rounded-lg text-black h-5 border border-gray-400 focus:outline-none focus:border-blue-500 pl-10"
             type="text"
             placeholder="my projects"
           />
-          <CiSearch className="absolute top-0 left-0 mt-9 cursor-pointer ml-6 md:ml-8 text-gray-400" />
+          <CiSearch className="absolute -top-1 left-6 mt-9 cursor-pointer ml-6 md:ml-8 text-gray-400" />
         </div>
       </div>
 

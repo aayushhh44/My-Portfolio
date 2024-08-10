@@ -9,6 +9,7 @@ module.exports = {
       body:['Roboto'],
       angkor:['Angkor'],
       google: ['Open Sans'],
+      poppins:['Poppins']
     }
 
   },
