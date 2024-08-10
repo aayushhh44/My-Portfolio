@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa";
 import emailjs from '@emailjs/browser';
 import { toast } from "react-toastify";
+import { Link } from "react-router-dom";
 
 
 const Contacts = () => {
@@ -148,25 +149,43 @@ const Contacts = () => {
         <h1 className="text-center text-3xl font-poppins">Get in Touch</h1>
         <div className="p-16 flex-col justify-center items-center sm:flex-row flex gap-8">
           <div className="bg-[#922232] dark:bg-white flex flex-col justify-center gap-6 h-96 p-4 w-full sm:w-1/3">
-            <h2 className=" dark:text-black font-poppins">My Socials</h2>
+            <h2 className="dark:text-black text-[#D0C2B3] font-poppins">My Socials</h2>
 
-            <div className="flex flex-col gap-8">
+            <div className="flex flex-col gap-8 font-poppins">
+              <a target="_blank" href="https://www.facebook.com/aayush4444/" className="flex gap-4 cursor-pointer text-white dark:text-black">
               <FaFacebook
                 size={30}
-                className="cursor-pointer dark:text-black"
               />
+              <p>Facebook</p>
+              </a>
+              
+              <a target="_blank" href="https://github.com/aayushhh44" className="flex gap-4 cursor-pointer text-white dark:text-black">
               <FaGithub
                 size={30}
-                className="cursor-pointer  dark:text-black"
+                className="cursor-pointer text-white  dark:text-black"
               />
+              <p>Github</p>
+
+              </a>
+              
+              <a target="_blank" className="flex gap-4 cursor-pointer text-white dark:text-black">
               <FaInstagram
                 size={30}
-                className="cursor-pointer  dark:text-black"
+                className="cursor-pointer text-white  dark:text-black"
               />
+              <p className="font-poppins">Instagram</p>
+
+              </a>
+
+              <a target="_blank" href="https://www.linkedin.com/in/aayush-poudel-915007223/" className="flex gap-4 cursor-pointer text-white dark:text-black">
               <FaLinkedin
                 size={30}
-                className="cursor-pointer  dark:text-black"
+                className="cursor-pointer text-white  dark:text-black"
               />
+              <p>Linkedin</p>
+              </a>
+              
+             
             </div>
           </div>
 

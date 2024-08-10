@@ -47,7 +47,7 @@ const Aboutme = () => {
             type="text"
             placeholder="Who am I?"
           />
-          <CiSearch className="absolute -top-1 left-10 mt-9 cursor-pointer ml-6 text-gray-400" />
+          <CiSearch className="absolute -top-1 left-8  sm:left-16 mt-9 cursor-pointer ml-6 text-gray-400" />
         </div>
 
         <div className="mt-4 gap-2">
