@@ -19,3 +19,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* index.css */
+body {
+  @apply bg-white dark:bg-gray-900;
+}
+

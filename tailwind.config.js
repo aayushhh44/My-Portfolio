@@ -10,7 +10,10 @@ module.exports = {
       angkor:['Angkor'],
       google: ['Open Sans'],
     }
+
   },
+
+  darkMode:'class',
   
   plugins: [],
 }

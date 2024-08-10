@@ -29,8 +29,11 @@
     return (
       <div >
         <Navbar />
-        <div className=" top-0 mt-16 text-center md:ml-[200px] lg:ml-[400px] xl:ml-[600px] left-0 max-w-md">
+        <div className="pt-36 top-0 text-center md:ml-[200px] lg:ml-[400px] xl:ml-[600px] left-0 max-w-md">
+          <div className='flex items-center justify-center'>
           <img className='md:w-[300px] w-[150px] cursor-pointer object-cover' src={Google} alt='Google' />
+
+          </div>
           <div className="relative">
             <input
               className="mt-6 w-[350px] px-4 py-2 placeholder-black place-content-between rounded-lg text-black h-5 border border-gray-400 focus:outline-none focus:border-blue-500 pl-10"
@@ -46,6 +49,8 @@
           </div>
 
         </div>
+
+        <div className='p-0 sm:p-8'>
 
         <div className="container ml-[20px] md:mx-auto mt-8 flex items-center gap-4 cursor-pointer">
           <div className="rounded-full bg-slate-100 w-8 h-8 border border-gray-500 flex items-center justify-center p-1">
@@ -77,6 +82,9 @@
 
         </div> 
 
+
+
+        </div>
 
       
 

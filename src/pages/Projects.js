@@ -3,6 +3,10 @@ import Navbar from "../components/Navbar";
 import projects from "../pages/Projects.json";
 import Google from "../assets/google.png";
 import { CiSearch } from "react-icons/ci";
+import SkeletonLoader from "../components/SkeletonLoader";
+import { FaGithub } from "react-icons/fa6";
+import { Link } from "react-router-dom";
+
 
 const Projects = () => {
   const [project, setProject] = useState(null);
@@ -19,7 +23,7 @@ const Projects = () => {
     <div>
       <Navbar />
 
-      <div className="top-0 mt-16 text-center md:ml-[200px] lg:ml-[400px] xl:ml-[600px] left-0 max-w-md">
+      <div className="top-0 pt-36 text-center md:ml-[200px] lg:ml-[400px] xl:ml-[600px] left-0 max-w-md">
         <img
           className="md:w-[300px] w-[150px] cursor-pointer object-cover"
           src={Google}
@@ -35,11 +39,11 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="max-w-4xl mx-auto mt-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="max-w-4xl pb-16 mx-auto mt-12">
+        <div className="grid grid-cols-1 p-8 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {project ? (
             entries.map(([key, pro]) => (
-              <div key={key} className="bg-white shadow-xl p-4 rounded-lg">
+              <div key={key} className="bg-white p-8 shadow-xl rounded-lg">
                 <img
                   className="object-cover w-full h-48"
                   src={pro.imageURL}
@@ -49,28 +53,28 @@ const Projects = () => {
                   {pro.name}
                 </h2>
                 <p className="text-gray-600">{pro.details}</p>
-                <div className="mt-4">
-                  <a
+                <div className=" items-center justify-end flex">
+                  <Link
                     href={pro.demoLink}
-                    className="text-blue-500 hover:underline mr-4"
+                    className="text-blue-500 no-underline hover:scale-90 hover:underline mr-4"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     Demo
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href={pro.githubLink}
-                    className="text-blue-500 hover:underline"
+                    className="text-blue-500 mt-1 hover:underline"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Github
-                  </a>
+                    <FaGithub />
+                  </Link>
                 </div>
               </div>
             ))
           ) : (
-            <p>Loading...</p>
+            <SkeletonLoader count={6} /> 
           )}
         </div>
       </div>

@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# MERN Stack Book Store Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the MERN Stack Book Store project! This web application allows users to manage a collection of books, including the ability to create, update, delete, and read book information.
 
-## Available Scripts
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup](#setup)
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Create Book**: Users can add new books to the store by providing book details such as title, author, and genre.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Update Book**: Existing books can be edited to update information like title, author, or genre.
 
-### `npm test`
+3. **Delete Book**: Users have the ability to remove books from the store.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Read Book**: View a list of all books in the store and click on individual books to see detailed information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **MongoDB**: Database to store book information.
+- **Express.js**: Backend framework to handle server-side logic.
+- **React.js**: Frontend library for building user interfaces.
+- **Node.js**: JavaScript runtime for server-side development.
+- **Mongoose**: MongoDB object modeling for Node.js.
+- **Axios**: Promise-based HTTP client for making requests to the backend API.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# Screenshots
+## Homepage:
+  *Homepage: Table mode*
+  ![image](https://github.com/aayushhh44/Book-Store/assets/110235375/ca7f4353-2324-4ec0-b4d1-9772376fc161)
+  *Homepage: Card mode*
+  ![image](https://github.com/aayushhh44/Book-Store/assets/110235375/0a36a571-d7c7-4997-a81f-d0f2f0f9d428)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Create Book page:
+  ![image](https://github.com/aayushhh44/Book-Store/assets/110235375/70fce2fd-a2cb-41a4-aa03-d4710a507b90)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Update Book page:
+  ![image](https://github.com/aayushhh44/Book-Store/assets/110235375/bfe70934-5439-4512-a72c-169c8641ed29)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Show Book page:
+  ![image](https://github.com/aayushhh44/Book-Store/assets/110235375/bc11a819-7ad8-43ec-aca0-5928cfacd4da)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Delete Book page:
+  ![image](https://github.com/aayushhh44/Book-Store/assets/110235375/5304199c-5a5f-413f-b314-30a61056f3b6)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Setup
 
-### Analyzing the Bundle Size
+1. Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+git clone https://github.com/your-username/mern-book-store.git
+cd mern-book-store
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
