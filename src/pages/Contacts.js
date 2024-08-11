@@ -5,7 +5,6 @@ import {
   FaGithub,
   FaLinkedin,
   FaFacebook,
-  FaDiscord
 } from "react-icons/fa";
 import emailjs from '@emailjs/browser';
 import { toast } from "react-toastify";
