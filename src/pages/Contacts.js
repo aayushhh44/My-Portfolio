@@ -48,7 +48,7 @@ const Contacts = () => {
   return (
     <div>
       <Navbar />
-
+{/* <h1>Hi</h1> */}
       {/* <div className="flex flex-col items-center justify-center mt-32">
         <h1 className="text-4xl font-semibold text-gray-800 mb-8">Get in Touch</h1>
         <div className="flex items-center gap-6">
