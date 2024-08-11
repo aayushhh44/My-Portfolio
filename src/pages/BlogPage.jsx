@@ -18,7 +18,7 @@ const BlogPage = () => {
                   />
                   <div>
                     <a
-                      href="#"
+                      href="/"
                       rel="author"
                       className="text-xl font-poppins font-bold text-gray-900 dark:text-white"
                     >
@@ -98,84 +98,84 @@ const BlogPage = () => {
           </h2>
           <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
             <article className="max-w-xs">
-              <a href="#">
+              
                 <img
                   src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-1.png"
                   className="mb-5 rounded-lg"
-                  alt="Image 1"
+                  alt="hero"
                 />
-              </a>
+            
               <h2 className="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
-                <a href="#">My First React Project</a>
+                <p>My First React Project</p>
               </h2>
               <p className="mb-4 text-gray-500 dark:text-gray-400">
                 A reflection on my first project built with React, highlighting the lessons learned and the growth experienced.
               </p>
               <a
-                href="#"
+                href="/"
                 className="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline"
               >
                 Read in 5 minutes
               </a>
             </article>
             <article className="max-w-xs">
-              <a href="#">
+              <a href="/">
                 <img
                   src="https://www.crio.do/blog/content/images/size/w600/2021/03/Machine-learning-projects.png"
                   className="mb-5 rounded-lg"
-                  alt="Image 2"
+                  alt="hero 2"
                 />
               </a>
               <h2 className="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
-                <a href="#">Understanding React Hooks</a>
+                <a href="/">Understanding React Hooks</a>
               </h2>
               <p className="mb-4  text-gray-500 dark:text-gray-400">
                 An in-depth look at how React hooks have transformed the way we manage state and side effects in functional components.
               </p>
               <a
-                href="#"
+                href="/"
                 className="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline"
               >
                 Read in 10 minutes
               </a>
             </article>
             <article className="max-w-xs">
-              <a href="#">
+              <a href="/">
                 <img
                   src="https://www.crio.do/blog/content/images/2021/03/Javascript-projects--React.png"
                   className="mb-5 rounded-lg"
-                  alt="Image 3"
+                  alt="hero 3"
                 />
               </a>
               <h2 className="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
-                <a href="#">Building Reusable Components</a>
+                <a href="/">Building Reusable Components</a>
               </h2>
               <p className="mb-4  text-gray-500 dark:text-gray-400">
                 Tips and techniques for creating modular, reusable components in React, ensuring maintainability and scalability.
               </p>
               <a
-                href="#"
+                href="/"
                 className="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline"
               >
                 Read in 7 minutes
               </a>
             </article>
             <article className="max-w-xs">
-              <a href="#">
+              <a href="/">
                 <img
                   src="https://media.licdn.com/dms/image/D5612AQEk_fp-S3Fe8A/article-cover_image-shrink_720_1280/0/1697777573828?e=2147483647&v=beta&t=UnTQEb19FQUep5WfJ6X4O_-XlJQfV2C_Z0eBaD2Dssk"
                   className="mb-5 rounded-lg"
-                  alt="Image 4"
+                  alt="hero"
                 />
               </a>
               <h2 className="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
-                <a href="#">State Management in React</a>
+                <a href="/">State Management in React</a>
               </h2>
               <p className="mb-4  text-gray-500 dark:text-gray-400">
                 Exploring different state management solutions in React, from built-in hooks to external libraries like Redux and MobX.
               </p>
               <a
-                href="#"
+                href="/"
                 className="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline"
               >
                 Read in 8 minutes
