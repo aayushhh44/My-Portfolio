@@ -59,22 +59,22 @@ const Projects = () => {
                 </h2>
                 <p className="text-gray-600">{pro.details}</p>
                 <div className=" items-center justify-end flex">
-                  <Link
+                  <a
                     href={pro.demoLink}
                     className="text-blue-500 no-underline hover:scale-90 hover:underline mr-4"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     Demo
-                  </Link>
-                  <Link
+                  </a>
+                  <a
                     href={pro.githubLink}
                     className="text-blue-500 mt-1 hover:underline"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <FaGithub />
-                  </Link>
+                  </a>
                 </div>
               </div>
             ))
