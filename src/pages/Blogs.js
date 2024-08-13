@@ -25,7 +25,7 @@ const Blogs = () => {
 
       </div>
 
-      <p>The first community is a very helpful to me and It also scared the shit outof me. I was so scared that I couldn't even move and say anything that's why I didnt tell a word. so it is very not important for me and evrything to me</p>
+      <p>Over the past few years, my journey as a React developer has been nothing short of transformative. Starting with basic concepts, I've grown to appreciate the power and flexibility of React, allowing me to create dynamic, responsive, and user-friendly web applications.</p>
     </div>
     </>
   )
