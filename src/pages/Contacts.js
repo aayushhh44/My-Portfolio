@@ -59,7 +59,7 @@ const Contacts = () => {
                 <FaInstagram size={30} className="cursor-pointer text-white dark:text-black" />
                 <p>Instagram</p>
               </a>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/aayush-poudel-915007223/" className="flex gap-4 cursor-pointer text-white dark:text-black">
+              <a target="_blank" rel="noopener noreferrer" href="/" className="flex gap-4 cursor-pointer text-white dark:text-black">
                 <FaLinkedin size={30} className="cursor-pointer text-white dark:text-black" />
                 <p>Linkedin</p>
               </a>

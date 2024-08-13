@@ -65,7 +65,7 @@ const Footer = () => {
                 </p>
 
                 <p className="font-poppins px-4 py-1 cursor-pointer w-36 sm:w-44 border-[#D0C1B3] rounded-2xl text-[#D0C2B3] border">
-                  <Link target="_blank" href="https://www.linkedin.com/in/aayush-poudel-915007223/">Linkedin</Link>
+                  <Link target="_blank" href="/">Linkedin</Link>
                 </p>
               </div>
             </div>
