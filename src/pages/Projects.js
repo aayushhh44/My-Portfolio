@@ -5,7 +5,7 @@ import Google from "../assets/google.png";
 import { CiSearch } from "react-icons/ci";
 import SkeletonLoader from "../components/SkeletonLoader";
 import { FaGithub } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+
 
 
 const Projects = () => {
