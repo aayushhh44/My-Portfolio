@@ -4,125 +4,120 @@ import ThemeToggle from "./ToogleButton";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RxCross2 } from "react-icons/rx";
 
-
 const Navbar = () => {
   const [nav, setNav] = useState(true);
   return (
     <div>
-
-             
       <nav className="bg-white p-2 dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-400 dark:border-gray-600">
+        {nav ? (
+          <RxHamburgerMenu
+            onClick={() => setNav(!nav)}
+            size={30}
+            className="cursor-pointer absolute right-2 top-7 sm:hidden"
+          />
+        ) : (
+          <RxCross2
+            size={30}
+            onClick={() => setNav(!nav)}
+            className="cursor-pointer absolute right-2 top-7 sm:hidden"
+          />
+        )}
 
-
-      {
-
-        nav ? <RxHamburgerMenu
-        onClick={() => setNav(!nav)}
-        size={30}
-        className="cursor-pointer absolute right-2 top-7 sm:hidden"
-      /> : <RxCross2 size={30} onClick={() => setNav(!nav)} className="cursor-pointer absolute right-2 top-7 sm:hidden"/>
-      }
-      
-
-            {
-              nav ? <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-              <Link
-                className="no-underline flex items-center space-x-3 rtl:space-x-reverse"
-                href="https://flowbite.com/"
-              >
-                <Link to="/" className="no-underline font-poppins text-2xl">
-                  Aayush
-                </Link>
+        {nav ? (
+          <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <Link
+              className="no-underline flex items-center space-x-3 rtl:space-x-reverse"
+              href="https://flowbite.com/"
+            >
+              <Link to="/" className="no-underline font-poppins text-2xl">
+                Aayush
               </Link>
-              <div className="flex items-center mr-8 md:order-2 gap-4 space-x-4 md:space-x-0 rtl:space-x-reverse">
-                <ThemeToggle />
-                
-           
-              </div>
-              <div
-                className="items-center justify-between p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 list-none hidden w-full md:flex md:w-auto md:order-1"
-                id="navbar-sticky"
-              >
-                <Link
-                  to="/"
-                  className="block font-poppins no-underline py-2 px-3 text-black  rounded md:bg-transparent  md:p-0 md:dark:text-white"
-                  aria-current="page"
-                >
-                  Home
-                </Link>
-    
-                <Link
-                  to="/about-me"
-                  className="block font-poppins py-2 px-3 no-underline  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  About
-                </Link>
-    
-                <Link
-                  to="/projects"
-                  className="block font-poppins py-2 px-3 no-underline  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Projects
-                </Link>
-    
-                <Link
-                  to="/blogs"
-                  className="block py-2 font-poppins px-3 no-underline  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Blogs
-                </Link>
-    
-                <Link
-                  to="/contact"
-                  className="block py-2 font-poppins px-3 no-underline  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Contact
-                </Link>
-              </div>
-            </div> : <div className="h-screen">
-            <div className="flex flex-col justify-center h-screen items-center gap-4"
-                
-        
-              >
-                <Link
-                  to="/"
-                  className="block text-2xl font-poppins no-underline py-2 px-3 text-black hover:underline underline-offset-8  rounded  md:p-0 dark:text-white"
-                  aria-current="page"
-                >
-                  Home
-                </Link>
-    
-                <Link
-                  to="/about-me"
-                  className="block text-2xl font-poppins py-2 px-3 no-underline  text-gray-900 rounded  md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white hover:underline underline-offset-8  dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  About
-                </Link>
-    
-                <Link
-                  to="/projects"
-                  className="block text-2xl font-poppins py-2 px-3 no-underline  text-gray-900 rounded   md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white hover:underline underline-offset-8  dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Projects
-                </Link>
-    
-                <Link
-                  to="/blogs"
-                  className="block py-2 text-2xl font-poppins px-3 no-underline  text-gray-900 rounded   md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white hover:underline underline-offset-8  dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Blogs
-                </Link>
-    
-                <Link
-                  to="/contact"
-                  className="block py-2 text-2xl font-poppins px-3 no-underline  text-gray-900 rounded   md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white hover:underline underline-offset-8 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Contact
-                </Link>
-              </div>
+            </Link>
+            <div className="flex items-center mr-8 md:order-2 gap-4 space-x-4 md:space-x-0 rtl:space-x-reverse">
+              <ThemeToggle />
             </div>
-            }
-        
+            <div
+              className="items-center justify-between p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 list-none hidden w-full md:flex md:w-auto md:order-1"
+              id="navbar-sticky"
+            >
+              <Link
+                to="/"
+                className="block font-poppins no-underline py-2 px-3 text-black  rounded md:bg-transparent  md:p-0 md:dark:text-white"
+                aria-current="page"
+              >
+                Home
+              </Link>
+
+              <Link
+                to="/about-me"
+                className="block font-poppins py-2 px-3 no-underline  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                About
+              </Link>
+
+              <Link
+                to="/projects"
+                className="block font-poppins py-2 px-3 no-underline  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Projects
+              </Link>
+
+              <Link
+                to="/blogs"
+                className="block py-2 font-poppins px-3 no-underline  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Blogs
+              </Link>
+
+              <Link
+                to="/contact"
+                className="block py-2 font-poppins px-3 no-underline  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Contact
+              </Link>
+            </div>
+          </div>
+        ) : (
+          <div className="h-screen">
+            <div className="flex flex-col justify-center h-screen items-center gap-4">
+              <Link
+                to="/"
+                className="block text-2xl font-poppins no-underline py-2 px-3 text-black hover:underline underline-offset-8  rounded  md:p-0 dark:text-white"
+                aria-current="page"
+              >
+                Home
+              </Link>
+
+              <Link
+                to="/about-me"
+                className="block text-2xl font-poppins py-2 px-3 no-underline  text-gray-900 rounded  md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white hover:underline underline-offset-8  dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                About
+              </Link>
+
+              <Link
+                to="/projects"
+                className="block text-2xl font-poppins py-2 px-3 no-underline  text-gray-900 rounded   md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white hover:underline underline-offset-8  dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Projects
+              </Link>
+
+              <Link
+                to="/blogs"
+                className="block py-2 text-2xl font-poppins px-3 no-underline  text-gray-900 rounded   md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white hover:underline underline-offset-8  dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Blogs
+              </Link>
+
+              <Link
+                to="/contact"
+                className="block py-2 text-2xl font-poppins px-3 no-underline  text-gray-900 rounded   md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white hover:underline underline-offset-8 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Contact
+              </Link>
+            </div>
+          </div>
+        )}
       </nav>
 
       {/* <nav className='flex justify-between items-center h-full gap-3 mt-4'>        
@@ -139,12 +134,6 @@ const Navbar = () => {
           </div>
 
         </nav> */}
-
-
-      
-
-
-        
     </div>
   );
 };

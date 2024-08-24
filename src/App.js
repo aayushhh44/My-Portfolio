@@ -7,6 +7,7 @@ import Contacts from './pages/Contacts'
 import Blogs from './pages/Blogs'
 import Footer from './components/Footer'
 import BlogPage from './pages/BlogPage'
+import { SmoothScrollHero } from './pages/Framer'
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         <Route path='/contact' element={<Contacts/>}/>
         <Route path='/blogs' element={<Blogs/>}/>
         <Route path='/blog-page' element={<BlogPage/>}/>
+        <Route path='/framer' element={<SmoothScrollHero />} />
       </Routes>
       <Footer />
       
