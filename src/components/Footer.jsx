@@ -73,7 +73,7 @@ const Footer = () => {
         </div>
 
         <div className="flex items-center justify-center w-full overflow-hidden">
-          <h1 className="xl:text-[320px] lg:text-[260px] md:text-[190px] font-extrabold font-poppins text-center text-[#D0C2B3] text-8xl text-nowrap">
+          <h1 className="xl:text-[320px] lg:text-[260px] md:text-[190px] font-extrabold font-poppins text-center text-[#D0C2B3] text-7xl text-nowrap">
             AAYUSH 
           </h1>
         </div>

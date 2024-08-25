@@ -8,18 +8,18 @@ import { IoIosArrowDropdown } from "react-icons/io";
 const FAQItem = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="pb-8">
+    <div >
       <div
         className="rounded-md mr-12 cursor-pointer w-full"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <hr className="w-26 border-t dark:border-gray-100 border-gray-600  opacity-40 " />
-        <div className="flex items-center justify-between mb-4 p-1 w-full ">
-          <h3 className="md:text-lg font-poppins text-sm ">{question}</h3>
-          <IoIosArrowDropdown size={25} className="text-gray-500 " />
+        <hr className="w-26 border-t dark:border-gray-100 border-gray-600 opacity-40" />
+        <div className="flex items-center justify-between mb-4 p-1 w-full">
+          <h3 className="md:text-lg font-poppins text-sm">{question}</h3>
+          <IoIosArrowDropdown size={25} className="text-gray-500" />
         </div>
         {isOpen && (
-          <p className="px-4 pb-3 text-xs md:text-lg w-full font-poppins -mt-2 mr-16 ">
+          <p className="px-4 pb-3 text-xs md:text-lg w-full font-poppins -mt-2 mr-16">
             {answer}
           </p>
         )}
@@ -31,7 +31,7 @@ const FAQItem = ({ question, answer }) => {
 
 const Aboutme = () => {
   return (
-    <div>
+    <div className="p-8">
       <Navbar />
       <div className="pt-36 top-0 text-center md:ml-[200px] lg:ml-[400px] xl:ml-[600px] left-0 max-w-md">
         <div className="flex items-center justify-center">
@@ -41,13 +41,14 @@ const Aboutme = () => {
             alt="Google"
           />
         </div>
+
         <div className="relative">
           <input
-            className="mt-6 w-[350px] p-4 placeholder-black place-content-between rounded-lg text-black h-5 border border-gray-400 focus:outline-none focus:border-blue-500 pl-10"
+            className="mt-6 sm:w-[350px] font-poppins placeholder:font-poppins p-4 placeholder-black rounded-lg text-black h-5 border border-gray-400 focus:outline-none focus:border-blue-500 pl-10"
             type="text"
             placeholder="Who am I?"
           />
-          <CiSearch className="absolute -top-1 left-8  sm:left-16 mt-9 cursor-pointer ml-6 text-gray-400" />
+          <CiSearch className="absolute -top-1 left-10 mt-9 cursor-pointer ml-6 md:ml-8 text-gray-400" />
         </div>
 
         <div className="mt-4 gap-2">
@@ -55,52 +56,50 @@ const Aboutme = () => {
             Web Analytics
           </button>
           <button className="p-2 ml-3 bg-gray-100 dark:bg-gray-900 font-poppins">
-            Im feeling Lucky
+            I'm feeling Lucky
           </button>
         </div>
       </div>
 
-      <div className="p-0 sm:p-8">
+      <div className="sm:p-8">
         <div className="container ml-[20px] md:mx-auto mt-8 flex items-center gap-4 cursor-pointer">
           <div className="rounded-full bg-slate-100 w-8 h-8 border border-gray-500 flex items-center justify-center p-1">
             <img src={Wiki} className="w-6 h-6" alt="Wikipedia" />
           </div>
 
-          <div className="">
+          <div>
             <p className="mb-2 text-sm font-bold">Wikipedia</p>
-            <p className="md:text-sm text-xs -mt-2 cursor-pointer">
+            <p className="md:text-sm w-64 text-xs -mt-2 cursor-pointer">
               https://en.wikipedia.org > wiki > Aayush_Poudel
             </p>
           </div>
         </div>
 
-        <div className="px-16 sm:py-8 md:mt-6">
+        <div className="px-4 sm:py-8 md:mt-6">
           <p className="text-blue-700 my-4 text-sm md:text-xl cursor-pointer mb-3 font-poppins">
             Aayush Poudel
           </p>
           <p className="-mt-3 text-xs md:text-lg">
-           
             <span className="font-bold font-poppins mr-1 text-gray-500">
-              Aayush Poudel 
+              Aayush Poudel
             </span>
-             is a web developer who loves building awesome stuff online. His tech
+            is a web developer who loves building awesome stuff online. His tech
             stack includes React for dynamic user interfaces, Node.js for
             scalable server-side development, Tailwind CSS for styling, and
             MongoDB for efficient database management....{" "}
           </p>
 
-          {/* People also asks */}
-          <div>
+          <div className="flex flex-col gap-4">
             <p className="text-blue-600 mt-5 text-xl mb-2 font-poppins mr-9">
               People also ask :
             </p>
 
             <FAQItem
-              question="Who is Aayush ?"
+              question="Who is Aayush?"
               answer="Aayush is a web developer who loves to do coding."
             />
             <FAQItem
-              question="What programming languages does Aayush specialize in??"
+              question="What programming languages does Aayush specialize in?"
               answer="Aayush specializes in JavaScript, using frameworks like React.js and Node.js for versatile web development."
             />
             <FAQItem
@@ -109,6 +108,18 @@ const Aboutme = () => {
             />
           </div>
         </div>
+        <h1 className="text-3xl font-poppins my-4">My Playlist</h1>
+        <iframe
+          className=""
+          title="My favs musics"
+          style={{ borderRadius: "12px" }}
+          src="https://open.spotify.com/embed/playlist/40qLyECtbWFJY7y0wpoA0V?utm_source=generator&theme=0"
+          width="100%"
+          height="380"
+          frameBorder="0"
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
       </div>
     </div>
   );

@@ -36,11 +36,11 @@ const Projects = () => {
        
         <div className="relative">
           <input
-            className="mt-6 w-[350px] font-poppins placeholder:font-poppins p-4 placeholder-black rounded-lg text-black h-5 border border-gray-400 focus:outline-none focus:border-blue-500 pl-10"
+            className="mt-6 sm:w-[350px] font-poppins placeholder:font-poppins p-4 placeholder-black rounded-lg text-black h-5 border border-gray-400 focus:outline-none focus:border-blue-500 pl-10"
             type="text"
             placeholder="my projects"
           />
-          <CiSearch className="absolute -top-1 left-10 mt-9 cursor-pointer ml-6 md:ml-8 text-gray-400" />
+          <CiSearch className="absolute -top-1 left-14 mt-9 cursor-pointer ml-6 md:ml-8 text-gray-400" />
         </div>
       </div>
 
