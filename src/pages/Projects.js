@@ -50,7 +50,7 @@ const Projects = () => {
             entries.map(([key, pro]) => (
               <div key={key} className="bg-white p-8 shadow-xl rounded-lg">
                 <img
-                  className="object-cover w-full h-48"
+                  className="object-contain w-full h-48"
                   src={pro.imageURL}
                   alt={pro.name}
                 />

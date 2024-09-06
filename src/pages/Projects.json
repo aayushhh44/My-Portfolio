@@ -1,5 +1,12 @@
 {
   "Project1": {
+    "name": "Aayush Ecommerce",
+    "imageURL": "/assets/image.png",
+    "details": "A responsive e-commerce web app built with React, featuring product browsing, cart management. Deployed on Netlify, it showcases modern front-end development and UI/UX design skills.",
+    "demoLink": "https://main--aayush-ecommercee.netlify.app/",
+    "githubLink": "https://github.com/aayushhh44/my-ecomm"
+  },
+  "Project2": {
     "name": "Gurkha Shilajit",
     "imageURL": "/assets/GurkhaShilajit.png",
     "details": "Gurkha Shilajit is a fully functional Web page. It was created targeting the users of United Kingdom. Users can buy shilajit through this web page.",
@@ -7,28 +14,28 @@
     "githubLink": "https://github.com/aayushhh44/Shilajit1"
   },
 
-  "Project2": {
+  "Project3": {
     "name": "Aayush Store",
     "imageURL": "/assets/ecom.png",
     "details": "Aayush Store is the second project I developed after learning React. It's an e-commerce platform where users can browse and purchase various products",
     "demoLink": "https://aayushbpayusbh.netlify.app/",
     "githubLink": ""
   },
-  "project3": {
+  "project4": {
     "name": "Image Search",
     "imageURL": "/assets/imagesearch.png",
     "details": "This is my third project, called Image Search. It allows users to search for images and view them in a gallery-style layout. ",
     "demoLink": "https://lucent-puffpuff-9fb2a4.netlify.app/",
     "githubLink": ""
   },
-  "project4": {
+  "project5": {
     "name": "Hamro Teacher",
     "imageURL": "/assets/hamroteacher.png",
     "details": "Hamro Teacher is a project developed during Sagarmatha Hacks. It aims to act as the bridge between educational institutions and students. ",
     "demoLink": "https://github.com/anishrajpandey/Hamro-Teacher---Sagarmatha-Hacks",
     "githubLink": "https://github.com/anishrajpandey/Hamro-Teacher---Sagarmatha-Hacks"
   },
-  "project5": {
+  "project6": {
     "name": "BookStore (MERN)",
     "imageURL": "/assets/MernCrud.png",
     "details": "BookStore is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) project. It allows users to register, delete, view books online.",
@@ -36,7 +43,7 @@
     "githubLink": "https://github.com/aayushhh44/Book-Store"
   }
   ,
-  "project6": {
+  "project7": {
     "name": "Personal Portfolio",
     "imageURL": "/assets/myportfolio.png",
     "details": "This is my portfolio site created after learning the basics of React.",
