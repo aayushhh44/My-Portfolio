@@ -1,65 +1,94 @@
-# MERN Stack Book Store Project
+# Personal Portfolio
 
-Welcome to the MERN Stack Book Store project! This web application allows users to manage a collection of books, including the ability to create, update, delete, and read book information.
+This is my personal portfolio website built with React and enhanced with various modern web technologies.
 
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Setup](#setup)
-
+- [Getting Started](#getting-started)
+- [Available Scripts](#available-scripts)
+- [Project Structure](#project-structure)
+- [Live Preview](#live-preview)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
-
-1. **Create Book**: Users can add new books to the store by providing book details such as title, author, and genre.
-
-2. **Update Book**: Existing books can be edited to update information like title, author, or genre.
-
-3. **Delete Book**: Users have the ability to remove books from the store.
-
-4. **Read Book**: View a list of all books in the store and click on individual books to see detailed information.
-
+- Responsive design for various screen sizes
+- Smooth animations and transitions using Framer Motion
+- Contact form with email integration via EmailJS
+- Routing with React Router for a single-page application experience
+- Toast notifications for improved user feedback
+- Custom scrolling experience with Lenis
 
 ## Technologies Used
+- React 18.2.0
+- React Router DOM 6.22.3
+- Framer Motion (via `framer` 2.4.1 and `motion` 10.18.0)
+- EmailJS Browser 4.4.1
+- React Icons 5.0.1
+- React Toastify 10.0.5
+- Tailwind CSS 3.4.1
 
-- **MongoDB**: Database to store book information.
-- **Express.js**: Backend framework to handle server-side logic.
-- **React.js**: Frontend library for building user interfaces.
-- **Node.js**: JavaScript runtime for server-side development.
-- **Mongoose**: MongoDB object modeling for Node.js.
-- **Axios**: Promise-based HTTP client for making requests to the backend API.
+## Getting Started
 
-
-# Screenshots
-## Homepage:
-  *Homepage: Table mode*
-  ![image](https://github.com/aayushhh44/Book-Store/assets/110235375/ca7f4353-2324-4ec0-b4d1-9772376fc161)
-  *Homepage: Card mode*
-  ![image](https://github.com/aayushhh44/Book-Store/assets/110235375/0a36a571-d7c7-4997-a81f-d0f2f0f9d428)
-
-## Create Book page:
-  ![image](https://github.com/aayushhh44/Book-Store/assets/110235375/70fce2fd-a2cb-41a4-aa03-d4710a507b90)
-
-## Update Book page:
-  ![image](https://github.com/aayushhh44/Book-Store/assets/110235375/bfe70934-5439-4512-a72c-169c8641ed29)
-
-## Show Book page:
-  ![image](https://github.com/aayushhh44/Book-Store/assets/110235375/bc11a819-7ad8-43ec-aca0-5928cfacd4da)
-
-## Delete Book page:
-  ![image](https://github.com/aayushhh44/Book-Store/assets/110235375/5304199c-5a5f-413f-b314-30a61056f3b6)
-
-
-
-  
-
-
-## Setup
+To run this project locally, follow these steps:
 
 1. Clone the repository:
+   ```
+   git clone  https://github.com/aayushhh44/My-Portfolio.git
+   ```
 
-```bash
-git clone https://github.com/your-username/mern-book-store.git
-cd mern-book-store
+2. Navigate to the project directory:
+   ```
+   cd My-Portfolio
+   ```
 
+3. Install dependencies:
+   ```
+   npm install
+   ```
 
+4. Start the development server:
+   ```
+   npm start
+   ```
 
+5. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+- `npm start`: Runs the app in development mode.
+- `npm test`: Launches the test runner in interactive watch mode.
+- `npm run build`: Builds the app for production to the `build` folder.
+- `npm run eject`: Removes the single build dependency from your project.
+
+## Project Structure
+
+The project structure follows the standard Create React App template. Key directories and files include:
+
+```
+portfolio/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── README.md
+```
+
+## Live Preview
+
+Live Preview: [https://aayushpoudel44.com.np/](https://aayushpoudel44.com.np/)
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
